@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Stoplicht extends Applet {
  public void init(){
-     }
+     } 
     public void paint(Graphics g) {
         setBackground(Color.white);
         g.setColor(Color.gray);
