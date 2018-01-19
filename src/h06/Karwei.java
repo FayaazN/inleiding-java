@@ -18,7 +18,7 @@ public class Karwei extends Applet {
 
     public void paint(Graphics g) {
         g.drawString("Totaalbedrag en Berekening is 133 / 4 =" + uitkomst,20,30);
-        g.drawString("Ahmad -->" + uitkomst,20,50);
+        g.drawString("Fayaaz -->" + uitkomst,20,50);
         g.drawString("Jan -->" +uitkomst,20,65);
         g.drawString("Ali -->" + uitkomst,20,80);
         g.drawString("Jeannette -->" + uitkomst,20,95);
