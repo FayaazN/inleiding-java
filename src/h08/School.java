@@ -7,10 +7,10 @@ import java.awt.event.*;
 
 public class School extends Applet{
 
-    Button man;
-    Button vrouw;
-    Button man2;
-    Button vrouw2;
+    Button Vader;
+    Button Moeder;
+    Button Heren;
+    Button Dames;
     int teller;
     int teller2;
     int teller3;
@@ -22,22 +22,22 @@ public class School extends Applet{
         setSize(500, 600);
         KnopListener kl = new KnopListener();
 
-        man = new Button("Vader");
-        man.addActionListener(kl);
-        vrouw = new Button("Moeder");
-        vrouw.addActionListener(new Vrouw());
-        man2 = new Button("Heren");
-        man2.addActionListener(new Man2());
-        vrouw2 = new Button("Dames");
-        vrouw2.addActionListener(new Vrouw2());
+        Vader = new Button("Vader");
+        Vader.addActionListener(kl);
+        Moeder = new Button("Moeder");
+        Moeder.addActionListener(new Vrouw());
+        Heren = new Button("Heren");
+        Heren.addActionListener(new Man2());
+        Dames = new Button("Dames");
+        Dames.addActionListener(new Vrouw2());
         teller = 0;
         teller2 =0;
         teller3 = 0;
         teller4 = 0;
-        add(man);
-        add(vrouw);
-        add(man2);
-        add(vrouw2);
+        add(Vader);
+        add(Moeder);
+        add(Heren);
+        add(Dames);
 
 
     }
