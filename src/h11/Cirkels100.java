@@ -3,7 +3,7 @@ package h11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Cirkels extends Applet {
+public class Cirkels100 extends Applet {
 
     public void paint(Graphics g) {
 
