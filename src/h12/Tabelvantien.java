@@ -1,5 +1,4 @@
 package H12;
-
 import java.awt.*;
 import java.applet.*;
 
